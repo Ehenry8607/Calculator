@@ -1,0 +1,32 @@
+
+operand1 = float(input("Enter a number: "))
+operator = input("Enter an operator: ")
+operand2 = float(input("Enter a number: "))
+if operator not in("+" , "-" , "*" , "/"):
+    print("ERROR: Invalid operator")
+    exit()
+
+
+
+if operator == "/" and operand2 == 0:
+    print("ERROR: Cannot divide by zero")
+    exit()
+
+# CALCULATIONS 
+if operator == "+":
+    result = operand1 + operand2
+
+elif operator == "-":
+    result = operand1 - operand2
+
+elif operator == "*":
+    result = operand1 * operand2
+
+elif operator == "/":
+    result = operand1 / operand2
+
+
+print("The result:" , result)
+
+#SUBMIT
+
