@@ -28,5 +28,4 @@ elif operator == "/":
 
 print("The result:" , result)
 
-#SUBMIT
 
